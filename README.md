@@ -13,8 +13,9 @@
 - Instalei os pacotes **TurtleBot3**:
   ```bash
   sudo apt install ros-jazzy-turtlebot3* ros-jazzy-ros-gz*
+  ```
 
-# 🐢 Simulação TurtleBot3 no ROS 2 Jazzy + Gazebo
+#  Simulação TurtleBot3 no ROS 2 Jazzy + Gazebo
 
 ## 🚀 Rodando a simulação
 
@@ -22,3 +23,4 @@
 ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
 ros2 launch turtlebot3_gazebo empty_world.launch.py
 ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -p stamped:=true
+```
